@@ -1,0 +1,172 @@
+#testimonials
+{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+#testimonials h2{
+	text-align:center;
+	color:#555 !important;
+	padding-bottom: 10px;
+	
+	
+	
+}
+
+#testimonials h2::after{
+	
+	content: '';
+	background: #007bff;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+
+
+
+#contact h2::after{
+	
+	content: '';
+	background: #007bff;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+
+
+
+
+
+
+#testimonials .row
+{
+	margin-top: 30px;
+}
+
+#testimonials .col-md-4
+{
+	margin:40px auto;
+	
+	
+}
+
+
+.profile{
+padding:70px 10px 10px;
+background-color:#efefef;	
+	
+}
+
+.user{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	
+}
+
+
+
+.profile img{
+	
+	top:-60px;
+	position:absolute;
+	left:calc(50% - 60px);
+	border: 10px solid #fff;
+}
+
+.profile h3 {
+	
+	font-size:20px;
+	margin-top: 15px;
+	color:#007bff;
+	
+}
+
+
+#testimonials span{
+	 font-size:12px;
+	 color:#333;
+	
+}
+
+blockquote
+{
+	
+	font-size:16px;
+	line-height:30px;
+	
+}
+
+
+blockquote::before
+{
+	
+	content: \93;
+	font-size:50px;
+	color:#007bff;
+	position:relative;
+	line-height:20px;
+	bottom: -15px;
+	right:5px;
+	
+}
+
+
+
+blockquote::after
+{
+	
+	content:' ';
+	font-size:50px;
+	color:#007bff;
+	position:relative;
+	line-height:20px;
+	bottom: -15px;
+	left:5px;
+	
+}
+
+
+.profile:hover{
+	
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+ #contact{
+	 
+	 padding-top: 40px;
+	 padding-bottom:40ox;
+	 color:#777;
+	 
+ }
+
+
+#contact-form{
+	
+	padding:15px;
+	
+	
+}
+
+
+.form-control
+{
+	border-radius:0 !iportant;
+	border: none !important;
+	
+}
+
+::placeholder{
+	
+	 color: #999 !important;
+}
+
+.follow{
+	
+	background:10px;
+	padding:10px;
+	
+}
